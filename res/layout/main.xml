@@ -8,11 +8,17 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/hello" />
-
+
     <ListView
-    android:id="@+id/list"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    />
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="410dp" />
+
+    <Button
+        android:id="@+id/TalkButton"
+        android:layout_width="82dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:text="说" />
     
 </LinearLayout>
